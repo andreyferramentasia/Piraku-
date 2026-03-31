@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.rais.org.br)",
+      "WebFetch(domain:uploads-ssl.webflow.com)",
+      "WebFetch(domain:cdn.prod.website-files.com)",
+      "Bash(ls \"c:/Users/Andrey/Desktop/Pirakua/\"*.py)"
+    ]
+  }
+}
