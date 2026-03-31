@@ -5,7 +5,7 @@ import base64
 from io import BytesIO
 
 st.set_page_config(
-    page_title="Atlas Pirakuá — PGTA",
+    page_title="Atlas Pirakua — PGTA",
     page_icon="🗺",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -230,7 +230,7 @@ chapters = [
         "path": "Imagens/01 - RIOS/01 - RIOS-1.png",
         "desc": (
             "Os rios são caminhos, memória e alimento. Mapeamento participativo das "
-            "principais bacias hidrográficas do território Pirakuá, com afluentes e "
+            "principais bacias hidrográficas do território Pirakua, com afluentes e "
             "nascentes nomeados pelas próprias comunidades durante as caminhadas de campo."
         ),
     },
@@ -240,7 +240,7 @@ chapters = [
         "desc": (
             "As casas revelam a organização social e espacial das famílias Guarani. "
             "O mapa registra localizações, laços de parentesco, roças e espaços de "
-            "convivência que estruturam a vida cotidiana no Pirakuá."
+            "convivência que estruturam a vida cotidiana no Pirakua."
         ),
     },
     {
@@ -265,7 +265,7 @@ chapters = [
         "num": "05", "title": "Síntese Espacial",
         "path": "Imagens/05 - ÁREAS GERAL/05 - ÁREAS GERAL-1.png",
         "desc": (
-            "Síntese Espacial das Representações Territoriais do Pirakuá. Os indígenas "
+            "Síntese Espacial das Representações Territoriais do Pirakua. Os indígenas "
             "desenharam à mão suas percepções do território — locais de uso, convivência "
             "e espiritualidade — integradas às análises cartográficas do atlas."
         ),
@@ -331,9 +331,9 @@ def to_b64(pil_img: Image.Image) -> str:
 
 # ── slides do carrossel ───────────────────────────────────────────────────────
 nature_slides = [
-    ("Imagens/Natureza/20251204_093514.jpg", "Rio no território Pirakuá"),
+    ("Imagens/Natureza/20251204_093514.jpg", "Rio no território Pirakua"),
     ("Imagens/Natureza/n.jpg",               "Vista do território — cerrado e mata nativa"),
-    ("Imagens/Natureza/20251204_134152.jpg",  "Paisagem do Pirakuá · Mato Grosso do Sul"),
+    ("Imagens/Natureza/20251204_134152.jpg",  "Paisagem do Pirakua · Mato Grosso do Sul"),
     ("Imagens/Natureza/20251205_083418.jpg",  "Arte e cultura Guarani Kaiowá"),
 ]
 
@@ -361,14 +361,14 @@ if c_img:
               color:white; text-align:center;">
     <div style="font-size:.7rem; font-weight:700; letter-spacing:.5em;
                 text-transform:uppercase; opacity:.72; margin-bottom:12px;">
-      Plano de Gestão Territorial e Ambiental · TI Pirakuá
+      Plano de Gestão Territorial e Ambiental · TI Pirakua
     </div>
     <div style="font-family:'Playfair Display',serif;
                 font-size:clamp(3rem,8vw,6rem); font-weight:700;
                 letter-spacing:.12em; text-transform:uppercase;
                 text-shadow:0 3px 16px rgba(0,0,0,0.55);
                 line-height:1; margin-bottom:10px;">
-      Pirakuá
+      Pirakua
     </div>
     <div style="font-size:.95rem; letter-spacing:.28em; text-transform:uppercase;
                 opacity:.82; margin-bottom:14px;">
@@ -409,7 +409,7 @@ with ca:
     st.markdown('<div class="sec-title">Sobre o Atlas</div>', unsafe_allow_html=True)
     st.markdown(f"""
 <p class="lead">
-O <strong>Atlas Territorial do Pirakuá</strong> é resultado de um processo de mapeamento
+O <strong>Atlas Territorial do Pirakua</strong> é resultado de um processo de mapeamento
 participativo que reuniu lideranças, anciãos e jovens das comunidades Guarani Kaiowá
 com pesquisadores e apoiadores do <strong>PGTA — Plano de Gestão Territorial e Ambiental</strong>.
 Cada página nasceu de caminhadas pelo território, rodas de conversa e oficinas de
@@ -569,10 +569,10 @@ st.markdown(f"""
 <div style="font-family:'Playfair Display',serif; font-size:2rem;
             color:{DARK_TEAL}; border-bottom:3px solid {TEAL};
             padding-bottom:10px; margin-bottom:24px;">
-  Equipe PGTA — TI Pirakuá
+  Equipe PGTA — TI Pirakua
 </div>
 <p style="font-size:1rem; color:{BROWN}; line-height:1.95; margin:0 0 36px;">
-  O <strong>PGTA (Plano de Gestão Territorial e Ambiental)</strong> da Terra Indígena Pirakuá
+  O <strong>PGTA (Plano de Gestão Territorial e Ambiental)</strong> da Terra Indígena Pirakua
   foi construído coletivamente. Agentes socioambientais indígenas, lideranças, pesquisadores
   e parceiros institucionais trabalharam juntos para registrar o território e planejar
   seu futuro de forma autônoma e participativa.
@@ -618,13 +618,13 @@ st.markdown(f"""
 <div class="site-footer">
   <div style="font-family:'Playfair Display',serif; font-size:2rem;
               color:{CREAM}; letter-spacing:.15em; margin-bottom:14px;">
-    PIRAKUÁ
+    PIRAKUA
   </div>
   <strong>Atlas Territorial Participativo · PGTA</strong><br>
-  Terra Indígena Pirakuá · Povo Guarani Kaiowá<br>
+  Terra Indígena Pirakua · Povo Guarani Kaiowá<br>
   Ponta Porã e Bela Vista · Mato Grosso do Sul · Brasil<br><br>
   Realização: <strong>CTI · RAIS · COPAIBAS</strong><br>
-  Os conhecimentos e representações territoriais pertencem ao povo Pirakuá.
+  Os conhecimentos e representações territoriais pertencem ao povo Pirakua.
 </div>
 """, unsafe_allow_html=True)
 border()
